@@ -1,7 +1,7 @@
 def square_array(array)
   # your code here
   array.each do |n|
-    return n**2
-
+    n**2
+    return array(n[0]**2, n[1]**2, n[3]**2)
   end
 end
